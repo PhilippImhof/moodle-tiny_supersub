@@ -29,4 +29,3 @@ $string['btnSubscriptTooltip'] = 'Subscript';
 $string['btnSuperscriptTooltip'] = 'Superscript';
 $string['pluginname'] = 'TinyMCE superscript and subscript buttons';
 $string['privacy:metadata'] = 'The Tiny font color plugin does not store any personal data about any user.';
-

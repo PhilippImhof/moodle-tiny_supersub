@@ -30,4 +30,3 @@ $plugin->supported = [401, 500];
 $plugin->component = 'tiny_supersub';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = '1.0';
-

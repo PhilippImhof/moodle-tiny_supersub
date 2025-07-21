@@ -35,7 +35,6 @@ use editor_tiny\plugin_with_buttons;
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class plugininfo extends plugin implements plugin_with_buttons {
-
     /**
      * Plugin name.
      */
@@ -63,5 +62,4 @@ class plugininfo extends plugin implements plugin_with_buttons {
         $dir = str_replace($CFG->dirroot, '', realpath(__DIR__));
         return substr($dir, 0, strrpos($dir, DIRECTORY_SEPARATOR));
     }
-
 }
