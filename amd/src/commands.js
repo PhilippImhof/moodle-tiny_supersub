@@ -23,7 +23,6 @@
 
 import {get_string as getString} from 'core/str';
 import {
-    component,
     superscriptButtonName,
     subscriptButtonName,
 } from './common';
@@ -41,8 +40,8 @@ export const getSetup = async() => {
         btnSubscriptTooltip,
         btnSuperscriptTooltip,
     ] = await Promise.all([
-        getString('btnSubscriptTooltip', component),
-        getString('btnSuperscriptTooltip', component),
+        getString('tiny:subscript', 'editor_tiny'),
+        getString('tiny:superscript', 'editor_tiny'),
     ]);
 
     return (editor) => {
