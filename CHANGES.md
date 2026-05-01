@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.0.3 (2026-05-01)
+
+- assure compatibility with Moodle 5.2
+- update CI
+
 ### 1.0.2 (2025-10-13)
 
 - use tooltip text from TinyMCE's menu
