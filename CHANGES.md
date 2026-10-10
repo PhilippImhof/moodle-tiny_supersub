@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.0.4 (2026-10-10)
+
+- assure compatibility with Moodle 5.3
+- update CI
+
 ### 1.0.3 (2026-05-01)
 
 - assure compatibility with Moodle 5.2
